@@ -19,3 +19,47 @@ footer {
   color: midnightblue;
 }
 
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.main > div {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+@media (max-width: 680px){
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .main > div {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
+
+
