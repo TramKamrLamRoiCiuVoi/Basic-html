@@ -10,6 +10,8 @@
   "author": "Hai",
   "license": "ISC",
   "dependencies": {
+    "inquirer": "^9.2.22",
+    "qr-image": "^3.2.0",
     "sillyname": "^0.1.0",
     "superhero-name-library": "^1.2.2"
   }
